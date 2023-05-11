@@ -1,0 +1,63 @@
+16MBytes => 16.000.000 bytes
+
+512 Bytes por Setor
+63 Setores por Trilha
+16 Trilhas por Cilindro
+4092 Cilindros
+
+Quantos Cilindros precisamos para armazenar os 16MB ou 16.000.000 bytes?
+
+1 Cilindro => 16Trilhas com 63 setores por trilha, 512Bytes por setor .:
+
+63 Setores*512 = 32.256 Bytes .: Por Trilha, Como são 16 Trilhas
+16 Trilhas*32.256 = 516.096 .: Por Cilindro.
+
+Como cada cilindro armazena no maximo 516.096 Bytes
+Para armazenar 16.000.000 Bytes .: 16.000.000/516.096 ~= 31,00198
+
+Logo no minimo 32 Cilindros são necessarios para armazenar os 16Mbytes.
+
+***********************************************************************
+
+5400 RPM
+
+1 Rotação = 1/5400 .: 60/5400 Segundos .: (60/5400)*1000 = 11,11 milisegundos 
+
+Uma rotação 11,11 Milisegundos
+Meia rotação 5,55 Milisegundos
+
+***********************************************************************
+Considere os seguintes dados técnicos: T_seek= 4ms, 15000rpm (15000/60 = 250rps), 512 Bytes/setor, 500
+setores/trilha e a leitura de um arquivo de 2500 setores (1.28MB). Assuma que o arquivo esteja armazenado
+em 5 trilhas adjacentes (5 trilhas × 500setores/trilha = 2500 setores). Encontrar o tempo de acesso de todo o
+arquivo.
+
+T_Seek = 4ms
+T_Latencia = 4ms
+
+15000 RPM - 1 Rotação = 1/15000 .: 60/15000 Segundos .: (60/15000)*1000 = 4 Milisegundos
+
+
+T_Transferencia = 0,004 Segundos ou 4ms
+1.28MB = 1.280.000 Bytes / 250 RPS * 512Bytes por Setor * 2500 Setores .:
+
+Tempo Total = 12ms 
+
+***********************************************************************
+Agora, considere que os setores estão
+distribuídos aleatoriamente pelo disco.
+
+T_Seek = 4ms
+T_Latencia = 4ms
+
+15000 RPM - 1 Rotação = 1/15000 .: 60/15000 Segundos .: (60/15000)*1000 = 4 Milisegundos
+
+
+T_Transferencia = 10s ou 10.000ms
+1.28MB = 1.280.000 Bytes / 250 RPS * 512Bytes por Setor.:
+
+Tempo Total por Setor = 10.008ms * 2500 setores
+ 
+T_Total = 25.020.000ms ou 25.020 Segundos ou 417 Minutos ou 6,95 Horas
+***********************************************************************
+
