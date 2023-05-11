@@ -1,0 +1,1 @@
+int look(int vetor[], int tam, int num);

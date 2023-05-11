@@ -1,0 +1,1 @@
+int soma(int vetor[], int tam);

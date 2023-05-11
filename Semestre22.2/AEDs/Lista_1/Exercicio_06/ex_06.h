@@ -1,0 +1,1 @@
+void inverte(int n);
