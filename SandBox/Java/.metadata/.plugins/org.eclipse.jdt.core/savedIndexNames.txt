@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Luccas\Desktop\UFOP\SandBox\Java\.metadata\.plugins\org.eclipse.jdt.core
+1372677264.index
+3151170103.index
+1865797976.index

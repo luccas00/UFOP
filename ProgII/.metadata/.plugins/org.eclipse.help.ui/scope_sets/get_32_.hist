@@ -1,0 +1,4 @@
+#Fri Dec 23 14:58:43 BRT 2022
+__DEFAULT__=false
+expression=get 
+org.eclipse.help.ui.localSearch.master=true
