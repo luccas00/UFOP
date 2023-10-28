@@ -1,0 +1,28 @@
+package inicial;
+
+import java.util.Scanner;
+
+public class Ex_3 {
+	
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double valor_conta;
+		
+		System.out.println("Digite o valor total da conta");
+		valor_conta = sc.nextDouble();
+		
+		valor_conta = gorjeta_conta(valor_conta);
+		
+		System.out.println("Valor final = " + valor_conta);
+		
+	}
+	
+	public static double gorjeta_conta(double qualquer) {
+		double aux;
+		aux = (qualquer*0.10)+qualquer; 
+		return aux;
+	}
+
+}

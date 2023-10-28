@@ -1,0 +1,12 @@
+package ultimo;
+
+public class Ponto_Ex_4 {
+	
+	public float x, y;
+	
+	public Ponto_Ex_4(float x, float y) {
+		this.x = x;
+		this.y = y;
+	}
+
+}

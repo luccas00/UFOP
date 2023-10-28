@@ -1,0 +1,42 @@
+package lista_1;
+
+import java.util.Scanner;
+
+public class Ex_7 {
+	
+	public static void main(String[] args) {
+		
+		String nome;
+		int qtd;
+		double valor;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Fatura principal[] = new Fatura[3];
+		for (int i = 0; i < principal.length; i++) {
+			principal[i] = new Fatura();
+		}
+		
+		
+		for (int i = 0; i < principal.length; i++) {
+			System.out.println("Digite o valor do item [" + (i+1) + "]");
+			valor = sc.nextDouble();
+			System.out.println("Digite o nome do item");
+			nome = sc.next();
+			System.out.println("Digite a quantidade comprada");
+			qtd = sc.nextInt();
+			principal[i].setItem(nome, valor, qtd);
+		}
+		
+		imprimeFatura(principal);
+		
+	}
+	
+	public static void imprimeFatura(Fatura qualquer[]) {
+		for (int i = 0; i < qualquer.length; i++) {
+			qualquer[i].imprimeItem();
+		}
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package lista_1;
+
+import java.util.Scanner;
+
+public class Ex_1 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int manicures[][] = new int[5][3];
+		
+		manicures[][]
+		
+		
+	}
+
+}

@@ -1,0 +1,44 @@
+package introduction;
+
+import java.util.Scanner;
+
+public class Novo {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Hello \nHello");
+		
+		int idade = 20;
+		
+		boolean menorDeIdade = idade < 18;
+		
+		int x = 10;
+		int y = 20;
+		
+		float a;
+		float b;
+		
+		System.out.println("Valor de X: " + x);
+		System.out.println("Valor de Y: " + y);
+		System.out.println("Digite os Valores de A e B, respectivamente");
+		
+		a = sc.nextFloat();
+		b = sc.nextFloat();
+		
+		System.out.println("Valor de A: " + a);
+		System.out.println("Valor de B: " + b);
+		
+		if (menorDeIdade == true) {
+			System.out.println("O individuo e Menor de Idade");
+		}
+		else {
+			System.out.println("Maioridade");
+		}
+		
+		
+		
+	}
+
+}

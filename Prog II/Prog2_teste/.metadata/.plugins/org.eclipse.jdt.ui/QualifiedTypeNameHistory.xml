@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.nio.channels.NetworkChannel"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="prova1.Ingresso"/>
+    <fullyQualifiedTypeName name="prova1.IngressoVip"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.lang.FdLibm.Pow"/>
+    <fullyQualifiedTypeName name="desvio_condicional.pessoa"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthStyleFactory"/>
+    <fullyQualifiedTypeName name="desvio_condicional.Ponto"/>
+    <fullyQualifiedTypeName name="laco_de_repeticao.Ex_2"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+    <fullyQualifiedTypeName name="desvio_condicional.Pessoa"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthStyle"/>
+    <fullyQualifiedTypeName name="lista_1.Servico_Ex_1"/>
+    <fullyQualifiedTypeName name="lista_1.Plantas_Ex_2"/>
+    <fullyQualifiedTypeName name="lista_1.Fatura"/>
+    <fullyQualifiedTypeName name="lista_1.Item"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="ultimo.Produtos_Ex_2"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.io.NotActiveException"/>
+    <fullyQualifiedTypeName name="java.beans.ConstructorProperties"/>
+    <fullyQualifiedTypeName name="ultimo.Alunos_Ex_3"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="ultimo.Ponto_Ex_4"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfoSupport"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="while_do_while.SomaVetor"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+</qualifiedTypeNameHistroy>

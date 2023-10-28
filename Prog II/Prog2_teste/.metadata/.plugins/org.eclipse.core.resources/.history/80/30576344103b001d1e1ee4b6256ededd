@@ -1,0 +1,63 @@
+package ultimo;
+
+public class Alunos_Ex_3 {
+	
+	private String nome;
+	private int nota_a;
+	private int nota_b;
+	private int nota_c;
+	
+	
+	public Alunos_Ex_3(String nome) {
+		setNome(nome);
+	}
+	
+	public void setNotas(int a, int b, int c) {
+		setNotaA(a);
+		setNotaB(b);
+		setNotaC(c);
+	}
+	
+	public void imprimeDados() {
+		System.out.println("Nome: " + getNome());
+		System.out.println("Nota A = " + getNotaA());
+		System.out.println("Nota B = " + getNotaB());
+		System.out.println("Nota C = " + getNotaC());
+		System.out.println("Media = " + (getNotaA()+getNotaB()+getNotaC())/3);
+	}
+	
+	private String getNome() {
+		return nome;
+	}
+	
+	private void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	private int getNotaA() {
+		return this.nota_a;
+	}
+	
+	private void setNotaA(int nota) {
+		this.nota_a = nota;
+	}
+	
+	private int getNotaB() {
+		return this.nota_b;
+	}
+	
+	private void setNotaB(int nota) {
+		this.nota_b = nota;
+	}
+	
+	private int getNotaC() {
+		return this.nota_c;
+	}
+	
+	private void setNotaC(int nota) {
+		this.nota_c = nota;
+	}
+	
+	
+	
+}

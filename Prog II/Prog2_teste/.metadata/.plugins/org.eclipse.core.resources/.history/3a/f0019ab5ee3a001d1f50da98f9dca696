@@ -1,0 +1,29 @@
+package lista_1;
+
+public class Fatura {
+
+	private Item base = new Item();
+	private int qtd_comprada;
+	
+	public void setQtdComprada(int num) {
+		this.qtd_comprada = num;
+	}
+	
+	public int getQtdComprada() {
+		return this.qtd_comprada;
+	}
+	
+	public Item getItem() {
+		return this.base;
+	}
+	
+	public void setItem(String nome, double valor, int numero) {
+		this.base.setNome(nome);
+		this.base.setNumero(numero);
+		this.base.setValor(valor);
+	}
+	
+	
+	
+}
+

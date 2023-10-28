@@ -1,0 +1,37 @@
+package laco_de_repeticao;
+
+import java.util.Scanner;
+
+public class Fatorial {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num, result;
+		
+		System.out.println("Digite um numero inteiro");
+		num = sc.nextInt();
+		
+		System.out.println(fibo(num));
+		
+	}
+	
+	public static int fibo(int num) {
+		
+		if (num == 1 || num == 2) {
+			int aux;
+			aux = 1;
+			System.out.println(aux + " ");
+			return aux;
+		}
+		else {
+			int aux;
+			aux = fibo(num-1)+fibo(num-2);
+			System.out.println(aux + " ");
+			return aux;
+		}
+		
+	}
+	
+}

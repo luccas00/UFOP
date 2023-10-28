@@ -1,0 +1,7 @@
+package ultimo;
+
+public class Ponto_Ex_4 {
+	
+	public float x, y;
+
+}

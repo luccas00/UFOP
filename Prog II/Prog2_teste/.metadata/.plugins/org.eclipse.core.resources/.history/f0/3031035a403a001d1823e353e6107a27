@@ -1,0 +1,25 @@
+package desvio_condicional;
+
+import java.util.Scanner;
+
+public class Ex_9 {
+	
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Ponto a = new Ponto();
+		Ponto b = new Ponto();
+		
+		System.out.println("Digite as cordenadas do ponto A");
+		a.x = sc.nextDouble();
+		a.y = sc.nextDouble();
+		
+		System.out.println("Digite as cordenadas do ponto B");
+		b.x = sc.nextDouble();
+		b.y = sc.nextDouble();
+		
+		
+	}
+
+}

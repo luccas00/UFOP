@@ -1,0 +1,8 @@
+package ultimo;
+
+public class Alunos_Ex_3 {
+	
+	private String nome;
+	private int nota[] = new int[3];
+	
+}

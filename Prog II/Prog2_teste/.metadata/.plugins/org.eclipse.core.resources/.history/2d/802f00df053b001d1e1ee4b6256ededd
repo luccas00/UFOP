@@ -1,0 +1,24 @@
+package ultimo;
+
+public class Produtos_Ex_2 {
+	
+	private int estoque_atual;
+	private double valor_item;
+	
+	public void setEstoque(int estoque) {
+		this.estoque_atual = estoque;
+	}
+	
+	public int getEstoque( ) {
+		return this.estoque_atual;
+	}
+	
+	public void setValor(double valor) {
+		this.valor_item = valor;
+	}
+	
+	public double getValor() {
+		return this.valor_item;
+	}
+	
+}

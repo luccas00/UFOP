@@ -1,0 +1,50 @@
+package lista_1;
+
+import java.util.Scanner;
+
+public class Ex_7 {
+	
+	public static void main(String[] args) {
+		
+		String nome;
+		int qtd, numero;
+		double valor;
+		double valor_total;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Celula principal[] = new Celula[3];
+		for (int i = 0; i < principal.length; i++) {
+			principal[i] = new Celula();
+		}
+		
+		
+		for (int i = 0; i < principal.length; i++) {
+			System.out.println("Digite o nome do item");
+			nome = sc.next();
+			System.out.println("Digite o valor do item [" + (i+1) + "]");
+			valor = sc.nextDouble();
+			System.out.println("Digite a quantidade comprada");
+			qtd = sc.nextInt();
+			System.out.println("Digite o numero do produto");
+			numero = sc.nextInt();
+			principal[i].setItem(nome, valor, numero, qtd);
+		}
+		
+		executaFatura(principal);
+		
+	}
+	
+	public static double executaFatura(Celula qualquer[]) {
+		double aux;
+		for (int i = 0; i < qualquer.length; i++) {
+			aux = qualquer[i].getQtdComprada()*qualquer.
+			qualquer[i].imprimeItem();
+			System.out.println("- - - - -");
+		}
+		
+		return aux;
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package ultimo;
+
+import java.util.Scanner;
+
+public class Ex_3 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String nome;
+		int nota[] = new int[3];
+		
+		System.out.println("Digite o nome do aluno");
+		nome = sc.next();
+		Alunos_Ex_3 novo = new Alunos_Ex_3(nome);
+		
+		System.out.println("Digite as 3 notas");
+		nota[0] = sc.nextInt()
+		
+		novo.imprimeDados();
+		
+	}
+
+}

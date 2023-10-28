@@ -1,0 +1,26 @@
+AEDs 28/07
+
+--Ponteiros--
+
+* - criaçao de ponteiro
+  - multiplicaçao
+  - a area apontada por
+
+& - o endereço de
+
+
+--Alocaçao dinamica--
+
+Estatica
+1º cria ponteiro
+2º reserva espaço
+3º copiar o 1º valor de endereço
+
+
+Dinamica
+1º
+2º
+3º
+------ TADs ------
+
+

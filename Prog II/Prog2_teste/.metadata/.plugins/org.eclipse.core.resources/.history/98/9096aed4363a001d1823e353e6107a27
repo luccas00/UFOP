@@ -1,0 +1,18 @@
+package desvio_condicional;
+
+import java.util.Scanner;
+
+public class Ex_7 {
+	
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int option;
+		
+		System.out.println("Digite um numero inteiro");
+		option = S
+		
+	}
+
+}

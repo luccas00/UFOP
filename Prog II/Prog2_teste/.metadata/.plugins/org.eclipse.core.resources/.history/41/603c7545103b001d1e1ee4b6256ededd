@@ -1,0 +1,25 @@
+package ultimo;
+
+import java.util.Scanner;
+
+public class Ex_3 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String nome;
+		int nota[] = new int[3];
+		
+		nome = sc.next();
+		nota[0] = 3;
+		nota[1] = 7;
+		nota[2] = 2;
+						
+		Alunos_Ex_3 novo = new Alunos_Ex_3(nome);
+		
+		novo.imprimeDados();
+		
+	}
+
+}

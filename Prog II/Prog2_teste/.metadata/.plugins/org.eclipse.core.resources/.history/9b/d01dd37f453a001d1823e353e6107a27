@@ -1,0 +1,43 @@
+package desvio_condicional;
+
+import java.util.Scanner;
+
+public class Ex_12 {
+	
+	public static void main (String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int chave;
+		
+		System.out.println("Digite o codigo do cargo");
+		chave = sc.nextInt();
+		
+		switch (chave) {
+		case 101:
+			break;
+
+		case 102:
+			break;
+			
+		case 103:
+			break;
+			
+		case 104:
+			break;
+
+		case 105:
+			break;
+			
+		case 106:
+			break;
+			
+		default:
+			System.out.println("Invalido");
+			break;
+		}
+		
+		
+	}
+
+}

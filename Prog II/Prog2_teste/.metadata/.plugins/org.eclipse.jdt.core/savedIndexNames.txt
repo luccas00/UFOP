@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\Luccas\Desktop\Prog2_teste\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2126234408.index
+668567798.index
+1372677264.index

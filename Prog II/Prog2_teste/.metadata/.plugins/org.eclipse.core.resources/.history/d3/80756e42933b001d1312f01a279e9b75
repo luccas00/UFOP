@@ -1,0 +1,19 @@
+package while_do_while;
+
+import java.util.Scanner;
+
+public class Ex_2 {
+	
+	public static void main(String[] args) {
+		 
+		final int tam = 100;
+		Scanner sc = new Scanner(System.in);
+		
+		int valores[] = new int[100];
+		
+		
+		
+		
+	}
+
+}

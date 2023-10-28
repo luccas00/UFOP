@@ -1,0 +1,17 @@
+package desvio_condicional;
+
+import java.util.Scanner;
+
+public class Ex_8 {
+
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Pessoa new = new Pessoa();
+		
+		
+		
+	}
+	
+}

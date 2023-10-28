@@ -1,0 +1,13 @@
+package while_do_while;
+
+public class SomaVetor {
+	
+	public static double somaVetor(int vet[]) {
+		double aux = 0;
+		for (int i = 0; i < vet.length; i++) {
+			aux += vet[i];
+		}
+		return aux;
+	}
+
+}

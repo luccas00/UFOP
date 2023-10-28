@@ -1,0 +1,29 @@
+package ultimo;
+
+public class Alunos_Ex_3 {
+	
+	private String nome;
+	private int nota[] = new int[3];
+	
+	
+	
+	public Alunos_Ex_3() {
+		
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int[] getNota() {
+		return this.nota;
+	}
+	public void setNota(int[] nota) {
+		this.nota = nota;
+	}
+	
+	
+	
+}

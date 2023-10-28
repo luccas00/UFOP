@@ -1,0 +1,7 @@
+package desvio_condicional;
+
+public class Ponto {
+	
+	public float x, y;
+	
+}

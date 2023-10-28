@@ -1,0 +1,11 @@
+package desvio_condicional;
+
+public class Pessoa {
+	
+	int idade;
+	double peso;
+	char letra;
+
+}
+
+

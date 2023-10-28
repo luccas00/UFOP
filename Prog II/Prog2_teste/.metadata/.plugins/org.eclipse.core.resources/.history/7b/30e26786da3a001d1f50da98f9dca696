@@ -1,0 +1,28 @@
+package lista_1;
+
+import java.util.Scanner;
+
+public class Ex_1 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Servico_Ex_1 valor = new Servico_Ex_1();
+		
+		int manicures[][] = new int[5][3];
+		
+		System.out.println("Digite o valor do serviço para, Pe");
+		valor.setPe(sc.nextDouble());
+		
+		System.out.println("Digite o valor do serviço para, Mao");
+		valor.setMao(sc.nextDouble());
+		
+		System.out.println("Digite o valor do serviço para, Podologia");
+		valor.setPodologia(sc.nextDouble());
+		
+		
+		
+	}
+
+}

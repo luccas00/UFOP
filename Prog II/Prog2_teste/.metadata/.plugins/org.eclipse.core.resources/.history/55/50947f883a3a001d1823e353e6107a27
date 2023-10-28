@@ -1,0 +1,30 @@
+package desvio_condicional;
+
+import java.util.Scanner;
+
+public class Ex_8 {
+
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Pessoa novo = new Pessoa();
+		String aux;
+		
+		System.out.println("Digite seu Peso");
+		novo.setPeso(sc.nextDouble());
+		
+		System.out.println("Digite sua Idade");
+		novo.setIdade(sc.nextInt());
+
+		System.out.println("Digite seu Nome");
+		aux = sc.nextLine();
+		novo.setNome(aux);
+		
+		System.out.println(novo.getNome());
+		System.out.println(novo.getIdade());
+		System.out.println(novo.getPeso());
+		
+	}
+	
+}

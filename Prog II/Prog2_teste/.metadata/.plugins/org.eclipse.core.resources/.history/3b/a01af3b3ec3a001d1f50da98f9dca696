@@ -1,0 +1,9 @@
+package lista_1;
+
+public class Fatura {
+
+
+	private int qtd_comprada;
+
+	
+}

@@ -1,0 +1,22 @@
+package inicial;
+
+import java.util.Scanner;
+
+public class Ex_2 {
+
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a, b, soma, subtrai, divide, multiplica;
+		
+		System.out.println("Digite dois numeros inteiros");
+		a = sc.nextInt();
+		b = sc.nextInt();
+		
+		
+		
+		
+	}
+	
+}

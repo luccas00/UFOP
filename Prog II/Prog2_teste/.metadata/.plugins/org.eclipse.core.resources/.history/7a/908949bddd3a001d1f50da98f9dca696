@@ -1,0 +1,17 @@
+package lista_1;
+
+import java.util.Scanner;
+
+public class Ex_2 {
+	
+	public static void main(String[] args) {
+		
+		final int tam = 10;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Plantas_Ex_2 flores[] = new Plantas_Ex_2[tam];
+		
+	}
+
+}

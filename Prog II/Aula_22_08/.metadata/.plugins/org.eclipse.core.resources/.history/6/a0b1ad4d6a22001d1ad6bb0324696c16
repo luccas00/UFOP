@@ -1,0 +1,17 @@
+package introduction;
+
+public class Novo {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Hello \nHello");
+		
+		int x = 10;
+		int y = 20;
+		
+		System.out.println("Valor de X: " + x);
+		System.out.println("Valor de Y: " + y);
+		
+	}
+
+}
